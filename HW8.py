@@ -248,10 +248,10 @@ class TestHW8(unittest.TestCase):
         self.assertEqual(len(restaurant_list), 3)
         self.assertEqual(restaurant_list[0], 'BTB Burrito')
 
-#     def test_get_highest_rating(self):
-#         highest_rating = get_highest_rating('South_U_Restaurants.db')
-#         self.assertEqual(highest_rating, self.highest_rating)
+    def test_get_highest_rating(self):
+        highest_rating = get_highest_rating('South_U_Restaurants.db')
+        self.assertEqual(highest_rating, self.highest_rating)
 
-# if __name__ == '__main__':
-#     main()
-#     unittest.main(verbosity=2)
+if __name__ == '__main__':
+    main()
+    unittest.main(verbosity=2)
